@@ -1,0 +1,40 @@
+*{
+    transition: 0.5s;
+}
+
+input, button, span{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    width: 100px;
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    padding: 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(1);
+    background-color: rgba(0, 140, 255, 0.84);
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    
+}
